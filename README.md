@@ -1,4 +1,4 @@
-# 📸 DannyStudio - Estudio Fotográfico Web
+# 📸 DannyStudio - Estudio Fotográfico
 
 Bienvenido a **DannyStudio**, una elegante aplicación web creada para mostrar los servicios de un estudio fotográfico profesional. El sitio ofrece un diseño atractivo, navegación fluida y funcionalidades como portafolio dinámico, contacto, animaciones y detalles de servicios.
 
