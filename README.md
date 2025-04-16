@@ -56,7 +56,6 @@ npm run dev
 ### 4️⃣ Abrir Proyecto
 ```bash
 http://localhost:5173
-vercel
 ```
 
 ## 🔗 Enlaces Utiles
@@ -65,7 +64,7 @@ vercel
 - **FontAwesome Icons:** https://fontawesome.com/
 - **AOS Animations:** https://michalsnik.github.io/aos/
 
-🚀 **Gracias por visitar Tienda Web!**
+## 🚀 **Gracias por visitar DannyStudio!**
 
 
 
