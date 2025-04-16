@@ -12,12 +12,24 @@ const Contacto = () => {
   ];
 
   // Verificar si la tienda está abierta
+  const horario = {
+    0: { dia: 'Domingo', abre: 9, cierra: 13 },
+    1: { dia: 'Lunes', abre: 9, cierra: 17 },
+    2: { dia: 'Martes', abre: 9, cierra: 17 },
+    3: { dia: 'Miércoles', abre: 9, cierra: 17 },
+    4: { dia: 'Jueves', abre: 9, cierra: 17 },
+    5: { dia: 'Viernes', abre: 9, cierra: 17 },
+    6: { dia: 'Sábado', abre: 9, cierra: 13 }
+  };
+
   const ahora = new Date();
   const hora = ahora.getHours();
   const dia = ahora.getDay();
-  const estaAbierto = (dia >= 1 && dia <= 5) && (hora >= 10 && hora < 22);
 
-  // Manejo del formulario
+  const diaActual = horario[dia];
+  const estaAbierto = hora >= diaActual.abre && hora < diaActual.cierra;
+
+  // Manejo del formulario  
   const handleChange = e => {
     setForm({ ...form, [e.target.id]: e.target.value });
   };
@@ -40,7 +52,7 @@ const Contacto = () => {
         <div className="row">
           <div className="col-lg-6 mb-4 mb-lg-0 text-white" data-aos="fade-up">
             <form onSubmit={handleSubmit}>
-              {['nombre', 'email','mensaje'].map((field, i) => (
+              {['nombre', 'email', 'mensaje'].map((field, i) => (
                 <div className="mb-3" key={i}>
                   <label htmlFor={field} className="form-label">
                     {field.charAt(0).toUpperCase() + field.slice(1)}
@@ -79,31 +91,31 @@ const Contacto = () => {
                 <ul className="list-unstyled">
                   <li>
                     <a
-                      href="https://maps.app.goo.gl/Hb1Q2LWj999teF326"
+                      href="https://maps.app.goo.gl/3kRbFa2SdHKvLtSQ6"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-white text-decoration-none"
                     >
                       <i className="fas fa-map-marker-alt me-2"></i>
-                      Av. Siempre Viva 123, Ciudad Ejemplo
+                      Jr Santa Isabel Mz Q1 Lt 1-D, Puente Piedra 15122
                     </a>
                   </li>
                   <br />
                   <li>
                     <a
-                      href="https://wa.me/51999888777"
+                      href="https://wa.me/51991819284"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-white text-decoration-none"
                     >
                       <i className="fab fa-whatsapp me-2"></i>
-                      +51 999 888 777
+                      +51 991 819 284
                     </a>
                   </li>
                   <br />
                   <li>
                     <i className="fas fa-clock me-2"></i>
-                    Lunes a Viernes :  10:00 a.m - 22:00 p.m
+                    {diaActual.dia}: {diaActual.abre}:00 a.m – {diaActual.cierra}:00 p.m
                     <span className={`ms-2 badge ${estaAbierto ? 'bg-success' : 'bg-danger'}`}>
                       {estaAbierto ? 'Abierto' : 'Cerrado'}
                     </span>
