@@ -37,9 +37,39 @@ Bienvenido a **DannyStudio**, una elegante aplicación web creada para mostrar l
 
 ## 📦 Instalación
 
-1. Clona el repositorio:
-
+### 1️⃣ Clonar el repositorio
 ```bash
 git clone https://github.com/FavioRD/DannyStudio1.0.git
 cd dannystudio
+```
+
+### 2️⃣ Instalar dependencias
+```bash
+npm install
+```
+
+### 3️⃣ Ejecutar en desarrollo
+```bash
+npm run dev
+```
+
+### 4️⃣ Abrir Proyecto
+```bash
+http://localhost:5173
+vercel
+```
+
+## 🔗 Enlaces Utiles
+- **Google Fonts:** https://fonts.google.com/
+- **Bootstrap Docs:** https://getbootstrap.com/
+- **FontAwesome Icons:** https://fontawesome.com/
+- **AOS Animations:** https://michalsnik.github.io/aos/
+
+🚀 **Gracias por visitar Tienda Web!**
+
+
+
+
+
+
 
