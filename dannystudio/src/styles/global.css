@@ -1,0 +1,95 @@
+/* Fuente general */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #212529;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.section-subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+/* Títulos de sección */
+.section-title {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  font-weight: 700;
+  font-size: 2rem;
+  color: rgb(160, 160, 160);
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 150px;
+  height: 3px;
+  background: #86b2f3;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-subtitle {
+  color: #6c757d;
+  margin-bottom: 30px;
+}
+
+/* Servicios */
+.service-card {
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 3rem;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: #40464e;
+  margin-bottom: 15px;
+}
+
+/* Formulario de contacto */
+#contact-form .form-control {
+  padding: 10px;
+} 
+
+#contact-form .form-control:focus {
+  box-shadow: none;
+  border-color: #d4d5d6;
+}
+
+
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+  body {
+    padding-top: 56px;
+  }
+
+  .hero-section {
+    height: auto;
+    padding: 100px 0;
+  }
+}
