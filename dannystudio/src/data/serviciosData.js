@@ -6,9 +6,45 @@ const serviciosData = [
     fullDescription: "Cobertura completa del día de tu boda, desde la preparación hasta la fiesta.",
     icon: "fas fa-ring",
     paquetes: [
-      "Paquete Básico: 4 horas de cobertura",
-      "Paquete Intermedio: 6 horas + 100 fotos editadas",
-      "Paquete Premium: 10 horas, álbum físico + video highlights"
+      {
+        nombre: "Estándar",
+        precio: 250,
+        recomendacion: "Ideal Para Empezar",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "1 cambio de outfit",
+          "10 Fotografías Digitales",
+          "2 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital"
+        ]
+      },
+      {
+        nombre: "Avanzado",
+        precio: 300,
+        recomendacion: "Ideal Para Proyectos",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "2 cambios de outfit",
+          "15 Fotografías Digitales",
+          "5 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital"
+        ]
+      },
+      {
+        nombre: "Premium",
+        precio: 350,
+        recomendacion: "Ideal Para Momentos Importantes",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "2 cambios de outfit",
+          "20 Fotografías en Alta Resolución",
+          "7 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital o USB"
+        ]
+      }
     ],
     galeria: [
       "/img/servicios/boda1.jpg",
@@ -24,9 +60,45 @@ const serviciosData = [
     fullDescription: "Cobertura completa del día de tu boda, desde la preparación hasta la fiesta.",
     icon: "fas fa-user-tie",
     paquetes: [
-      "Paquete Básico: 4 horas de cobertura",
-      "Paquete Intermedio: 6 horas + 100 fotos editadas",
-      "Paquete Premium: 10 horas, álbum físico + video highlights"
+      {
+        nombre: "Estándar",
+        precio: 250,
+        recomendacion: "Ideal Para Empezar",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "1 cambio de outfit",
+          "10 Fotografías Digitales",
+          "2 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital"
+        ]
+      },
+      {
+        nombre: "Avanzado",
+        precio: 300,
+        recomendacion: "Ideal Para Proyectos",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "2 cambios de outfit",
+          "15 Fotografías Digitales",
+          "5 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital"
+        ]
+      },
+      {
+        nombre: "Premium",
+        precio: 350,
+        recomendacion: "Ideal Para Momentos Importantes",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "2 cambios de outfit",
+          "20 Fotografías en Alta Resolución",
+          "7 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital o USB"
+        ]
+      }
     ],
     galeria: [
       "/img/servicios/boda1.jpg",
@@ -46,10 +118,46 @@ const serviciosData = [
       "Paquete Intermedio: 6 horas + 100 fotos editadas",
       "Paquete Premium: 10 horas, álbum físico + video highlights"
     ],
-    galeria: [
-      "/img/servicios/boda1.jpg",
-      "/img/servicios/boda2.jpg",
-      "/img/servicios/boda3.jpg"
+    paquetes: [
+      {
+        nombre: "Estándar",
+        precio: 250,
+        recomendacion: "Ideal Para Empezar",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "1 cambio de outfit",
+          "10 Fotografías Digitales",
+          "2 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital"
+        ]
+      },
+      {
+        nombre: "Avanzado",
+        precio: 300,
+        recomendacion: "Ideal Para Proyectos",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "2 cambios de outfit",
+          "15 Fotografías Digitales",
+          "5 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital"
+        ]
+      },
+      {
+        nombre: "Premium",
+        precio: 350,
+        recomendacion: "Ideal Para Momentos Importantes",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "2 cambios de outfit",
+          "20 Fotografías en Alta Resolución",
+          "7 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital o USB"
+        ]
+      }
     ],
     video: "https://www.youtube.com/embed/XXXXXXXXXXX"
   },
@@ -60,9 +168,45 @@ const serviciosData = [
     fullDescription: "Cobertura completa del día de tu boda, desde la preparación hasta la fiesta.",
     icon: "fas fa-baby",
     paquetes: [
-      "Paquete Básico: 4 horas de cobertura",
-      "Paquete Intermedio: 6 horas + 100 fotos editadas",
-      "Paquete Premium: 10 horas, álbum físico + video highlights"
+      {
+        nombre: "Estándar",
+        precio: 250,
+        recomendacion: "Ideal Para Empezar",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "1 cambio de outfit",
+          "10 Fotografías Digitales",
+          "2 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital"
+        ]
+      },
+      {
+        nombre: "Avanzado",
+        precio: 300,
+        recomendacion: "Ideal Para Proyectos",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "2 cambios de outfit",
+          "15 Fotografías Digitales",
+          "5 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital"
+        ]
+      },
+      {
+        nombre: "Premium",
+        precio: 350,
+        recomendacion: "Ideal Para Momentos Importantes",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "2 cambios de outfit",
+          "20 Fotografías en Alta Resolución",
+          "7 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital o USB"
+        ]
+      }
     ],
     galeria: [
       "/img/servicios/boda1.jpg",
@@ -78,9 +222,45 @@ const serviciosData = [
     fullDescription: "Cobertura completa del día de tu boda, desde la preparación hasta la fiesta.",
     icon: "fas fa-users",
     paquetes: [
-      "Paquete Básico: 4 horas de cobertura",
-      "Paquete Intermedio: 6 horas + 100 fotos editadas",
-      "Paquete Premium: 10 horas, álbum físico + video highlights"
+      {
+        nombre: "Estándar",
+        precio: 250,
+        recomendacion: "Ideal Para Empezar",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "1 cambio de outfit",
+          "10 Fotografías Digitales",
+          "2 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital"
+        ]
+      },
+      {
+        nombre: "Avanzado",
+        precio: 300,
+        recomendacion: "Ideal Para Proyectos",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "2 cambios de outfit",
+          "15 Fotografías Digitales",
+          "5 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital"
+        ]
+      },
+      {
+        nombre: "Premium",
+        precio: 350,
+        recomendacion: "Ideal Para Momentos Importantes",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "2 cambios de outfit",
+          "20 Fotografías en Alta Resolución",
+          "7 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital o USB"
+        ]
+      }
     ],
     galeria: [
       "/img/servicios/boda1.jpg",
@@ -96,9 +276,45 @@ const serviciosData = [
     fullDescription: "Cobertura completa del día de tu boda, desde la preparación hasta la fiesta.",
     icon: "fas fa-edit",
     paquetes: [
-      "Paquete Básico: 4 horas de cobertura",
-      "Paquete Intermedio: 6 horas + 100 fotos editadas",
-      "Paquete Premium: 10 horas, álbum físico + video highlights"
+      {
+        nombre: "Estándar",
+        precio: 250,
+        recomendacion: "Ideal Para Empezar",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "1 cambio de outfit",
+          "10 Fotografías Digitales",
+          "2 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital"
+        ]
+      },
+      {
+        nombre: "Avanzado",
+        precio: 300,
+        recomendacion: "Ideal Para Proyectos",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "2 cambios de outfit",
+          "15 Fotografías Digitales",
+          "5 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital"
+        ]
+      },
+      {
+        nombre: "Premium",
+        precio: 350,
+        recomendacion: "Ideal Para Momentos Importantes",
+        caracteristicas: [
+          "1 Hora de Sesión",
+          "2 cambios de outfit",
+          "20 Fotografías en Alta Resolución",
+          "7 Fotografías Impresas",
+          "Collage o Portada Digital",
+          "Material en Digital o USB"
+        ]
+      }
     ],
     galeria: [
       "/img/servicios/boda1.jpg",
