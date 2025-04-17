@@ -31,3 +31,12 @@
     opacity: 1;
   }
   
+  .carousel-caption h5 {
+    color: #fff;
+    font-weight: 600;
+  }
+  .carousel img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
