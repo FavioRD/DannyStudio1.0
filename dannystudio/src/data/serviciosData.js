@@ -53,11 +53,12 @@ const serviciosData = [
     ],
     video: "https://www.youtube.com/embed/XXXXXXXXXXX"
   },
+//RETRATO
   {
     id: "retrato",
     title: "Retratos Profesionales",
     description: "Sesiones fotográficas personalizadas para destacar tu mejor versión.",
-    fullDescription: "Cobertura completa del día de tu boda, desde la preparación hasta la fiesta.",
+    fullDescription: "Creamos retratos personalizados que capturan tu esencia. Ya sea para un perfil profesional o un regalo único, cada sesión se adapta a tu estilo y personalidad.",
     icon: "fas fa-user-tie",
     paquetes: [
       {
@@ -107,11 +108,12 @@ const serviciosData = [
     ],
     video: "https://www.youtube.com/embed/XXXXXXXXXXX"
   },
+//EVENTOS
   {
     id: "eventos",
     title: "Fotografía de Eventos",
     description: "Documentamos tus eventos corporativos o personales con profesionalismo. ",
-    fullDescription: "Cobertura completa del día de tu boda, desde la preparación hasta la fiesta.",
+    fullDescription: "Desde conferencias hasta fiestas personales, capturamos la esencia de tu evento. Nos encargamos de inmortalizar esos momentos importantes para que puedas revivirlos una y otra vez.",
     icon: "fas fa-calendar-alt",
     paquetes: [
       "Paquete Básico: 4 horas de cobertura",
@@ -161,11 +163,12 @@ const serviciosData = [
     ],
     video: "https://www.youtube.com/embed/XXXXXXXXXXX"
   },
+  //SESIONES DE EMBARAZO
   {
     id: "embarazo",
     title: "Sesiones de Embarazo",
     description: "Capturamos los momentos más especiales de tu día.",
-    fullDescription: "Cobertura completa del día de tu boda, desde la preparación hasta la fiesta.",
+    fullDescription: "Cada etapa del embarazo es única. Te ayudamos a capturar esa belleza y magia en una sesión fotográfica llena de emociones.",
     icon: "fas fa-baby",
     paquetes: [
       {
@@ -215,11 +218,12 @@ const serviciosData = [
     ],
     video: "https://www.youtube.com/embed/XXXXXXXXXXX"
   },
+  //SESIONES FAMILIARES
   {
     id: "familia",
     title: "Sesiones Familiares",
     description: "Captura los lazos y emociones de tu familia en imágenes eternas.",
-    fullDescription: "Cobertura completa del día de tu boda, desde la preparación hasta la fiesta.",
+    fullDescription: "Las sesiones familiares son la oportunidad perfecta para capturar los momentos especiales con tus seres queridos. Desde la alegría hasta los recuerdos más entrañables, nos encargamos de inmortalizarlos en imágenes.",
     icon: "fas fa-users",
     paquetes: [
       {
@@ -269,11 +273,12 @@ const serviciosData = [
     ],
     video: "https://www.youtube.com/embed/XXXXXXXXXXX"
   },
+  //EDICIÓN
   {
     id: "edicion",
     title: "Edición Profesional",
     description: "Retoque y edición profesional para que tus fotos luzcan perfectas.",
-    fullDescription: "Cobertura completa del día de tu boda, desde la preparación hasta la fiesta.",
+    fullDescription: "Transforma tus fotos con nuestro servicio de edición profesional. Realzamos cada detalle para que tus recuerdos sean impecables, asegurando colores vibrantes y acabados de alta calidad.",
     icon: "fas fa-edit",
     paquetes: [
       {
