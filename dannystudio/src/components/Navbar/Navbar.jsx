@@ -7,8 +7,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
       <div className="container">
         <a className="navbar-brand d-flex align-items-center" href="#inicio">
-          <img src={logo} alt="Logo Estudio Fotográfico" height="40" className="me-2" />
-          <span className="fw-bold">Estudio</span>
+          <img src={logo} alt="Logo Estudio Fotográfico" height="40" className="me-2" />  
         </a>
 
         {/* Botón tipo sándwich para móviles */}
@@ -19,7 +18,7 @@ const Navbar = () => {
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
-          aria-label="Toggle navigation"
+          aria-label="Toggle navigation"  
         >
           <span className="navbar-toggler-icon"></span>
         </button>
