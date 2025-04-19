@@ -1,23 +1,40 @@
-# 📸 DannyStudio - Estudio Fotográfico
+<h1 align="center">📸 DannyStudio</h1>
 
-Bienvenido a **DannyStudio**, una elegante aplicación web creada para mostrar los servicios de un estudio fotográfico profesional. El sitio ofrece un diseño atractivo, navegación fluida y funcionalidades como portafolio dinámico, contacto, animaciones y detalles de servicios.
+<p align="center">
+  <em>Capturando momentos inolvidables con estilo y profesionalismo.</em><br />
+  Sitio web para estudio fotográfico desarrollado con <strong>React + Bootstrap + Vite</strong>.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Vite-6-purple?logo=vite" />
+  <img src="https://img.shields.io/badge/Bootstrap-5.3-blueviolet?logo=bootstrap" />
+  <img src="https://img.shields.io/badge/Responsive-Yes-brightgreen?logo=css3" />
+</p>
 
 ---
 
-## 🚀 Tecnologías Usadas
+## 🧩 Descripción
 
-- **React 19** con **Vite**
-- **Bootstrap 5.3**
-- **FontAwesome 6.7**
-- **React Router DOM**
-- **AOS (Animate on Scroll)**
-- **Framer Motion** (opcional para animaciones avanzadas)
+**DannyStudio** es una página moderna y responsiva para un estudio de fotografía profesional.  
+Ofrece una experiencia elegante para mostrar:
+
+- 📷 Servicios personalizados
+- 🖼️ Portfolio de trabajos
+- 🧾 Paquetes con detalles
+- 🗺️ Información de contacto
+- 💬 WhatsApp para clientes
 
 ---
 
-## 🌐 Vista previa
 
-> Agrega aquí una captura de pantalla o GIF del sitio corriendo
+## 🔧 Tecnologías
+- ⚛️ React	Librería principal de interfaz
+- ⚡ Vite	Bundler ultrarrápido
+- 🎨 Bootstrap 5	Estilos y responsividad
+- 🎞️ AOS	Animaciones al hacer scroll
+- 💬 WhatsApp API	Contacto directo con los clientes
+- 📁 React Router	Navegación SPA
 
 ---
 
@@ -32,6 +49,13 @@ Bienvenido a **DannyStudio**, una elegante aplicación web creada para mostrar l
 ✅ Formulario de contacto funcional  
 ✅ Links reales a WhatsApp, Google Maps y redes sociales  
 ✅ Diseño 100% responsive  
+
+---
+
+## 🚀 Demo
+
+📍 Vista previa en vivo
+🔗 [https://danny-studio1-0.vercel.app/](https://danny-studio1-0.vercel.app/)
 
 ---
 
@@ -57,6 +81,7 @@ npm run dev
 ```bash
 http://localhost:5173
 ```
+---
 
 ## 🔗 Enlaces Utiles
 - **Google Fonts:** https://fonts.google.com/
@@ -65,10 +90,3 @@ http://localhost:5173
 - **AOS Animations:** https://michalsnik.github.io/aos/
 
 ## 🚀 **Gracias por visitar DannyStudio!**
-
-
-
-
-
-
-
